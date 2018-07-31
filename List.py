@@ -13,9 +13,6 @@ The following operations we are going to cover using List
 
 #1
 '''In the first operation here we are going to append item to our existing list (dummy_list)'''
-import time
-from datetime import datetime
-startTime = datetime.now()
 def list_append():
 	dummy_list=[1,2,3,4]
 	item=5
@@ -128,7 +125,5 @@ def list_sort():
 	dummy_list.sort()
 	return dummy_list
 print list_sort()
-end=datetime.now()
-print startTime-end
 #Here the output is [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 #So we can see that the output list is in sorted manner.
